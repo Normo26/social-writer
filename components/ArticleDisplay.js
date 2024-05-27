@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import ReactQuill from 'react-quill'; // import Quill
-import 'react-quill/dist/quill.snow.css';
+//import 'react-quill/dist/quill.snow.css';
 
 const ArticleDisplay = ({ setPostUrl, title, article, mediaArr }) => {
   const [loading, setLoading] = useState(false);
